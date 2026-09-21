@@ -74,15 +74,15 @@
 
     <main>
         <div class="container my-5">
-            <h1>Sobre</h1>
+            
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 mb-2 align-items-center rounded-3 border shadow-lg">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
 
-                    <form class="custom-form">
+                    <form class="custom-form" method="post" action="">
                         <!-- Nome -->
                         <div class="form-group mb-3">
                             <label for="nome">Nome</label>
-                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" pattern="[a-zA-Z\s]+$" required>
                             <small class="form-text text-muted">Campo obrigatório para identificar quem está enviando a
                                 mensagem.</small>
                         </div>
@@ -119,7 +119,7 @@
 
                         <!-- Textarea travada -->
                         <div class="form-group mb-3">
-                            <label for="comentarios">Comentários (Opcional)</label>
+                            <label for="comentarios">Comentários</label>
                             <textarea class="form-control" id="comentarios" rows="3"
                                 >Deixe seu comentario sobre o site.</textarea>
                         </div>
