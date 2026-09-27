@@ -18,9 +18,8 @@
     <!-- Nav -->
     <nav class="navbar navbar-expand-lg custom-navbar">
         <div class="container-fluid ">
-            <a class="navbar-brand content" href="..\index.html" style="color: var(--text-color);"><img src="../img/logo.png" width="50" height="50"></a>
-            <!-- <a class="navbar-brand content main-theme" href="#">Cibersegurança</a> -->
-            <!-- <a class="navbar-brand content main-theme" href="#"><img src="img/logo.png"></a> -->
+            <a class="navbar-brand content" href="../index.html" style="color: var(--text-color);"><img
+                    src="../img/logo.png" width="50" height="50"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span><img src="../img/hamb_menu.png"></span>
@@ -32,12 +31,10 @@
                     <a class="nav-link" href="aplicacoes.html">Aplicações</a>
                     <a class="nav-link active" href="ferramentas.html">Ferramentas</a>
                     <a class="nav-link" href="Bibliografia.html">Bibliografia</a>
-                    <!-- <a class="nav-link" href="Creditos.html">Créditos</a> -->
 
                     <div class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <!-- <img src="img/lang_menu.png" height="30" width="30"> -->
                             Créditos
                         </a>
                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -49,12 +46,13 @@
 
                     <a class="nav-link" aria-current="page" href="Contato.html">Contato</a>
                     <div class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle d-flex align-items-center gap-2" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center gap-2" href="#"
+                            id="navbarDropdownLang" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             <span class="material-symbols-outlined">translate</span>
                             <span>Traduzir</span>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownLang">
                             <a class="dropdown-item" href="#">Português</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="../ENG/ferramentas.html">English</a>
@@ -66,117 +64,41 @@
     </nav>
     <!-- Nav -->
 
-    <!-- Corpo -->
+    <!-- Fundo Matrix -->
     <div class="matrix-container position-fixed">
         <canvas id="matrix"></canvas>
     </div>
 
     <main>
-
         <div class="container my-5 w-75">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 mb-2 align-items-center rounded-3 border shadow-lg">
                 <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
-                    <h1 class="display-5 fw-bold lh-1 text-center">Seção 1 – Sistemas Operacionais</h1><br>
+                    <h1 class="display-5 fw-bold lh-1 text-center">Seção 1 – Ferramentas do Dia a Dia</h1><br>
                     <p class="text-center fs-5">
-                        Os sistemas operacionais voltados para a cibersegurança são ambientes especializados que
-                        oferecem recursos avançados para testes de penetração, privacidade e proteção de dados. Eles são
-                        fundamentais para profissionais da área, pois permitem simular ataques, identificar
-                        vulnerabilidades e aplicar medidas de defesa em ambientes controlados.
+                        Esta seção reúne as soluções fundamentais de proteção para usuários comuns e ambientes
+                        corporativos iniciais.
+                        Elas atuam como a primeira linha de defesa contra ameaças frequentes da internet, prevenindo
+                        infecções por malwares,
+                        bloqueando conexões não autorizadas, gerenciando credenciais de forma segura e protegendo o
+                        tráfego de dados pessoais.
                     </p>
                 </div>
             </div>
         </div>
-
-
-        <div class="container-fluid my-5">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                    <a href="https://www.kali.org/" target="_blank" class="text-decoration-none d-block">
-                    <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover">
-                        <img src="../img/kalicerto.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Kali Linux</h3>
-                            <p class="card-text">
-                                Distribuição Linux voltada para testes de penetração e hacking ético. Inclui
-                                ferramentas como Nmap, Metasploit e Wireshark.
-                            </p>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-
-                <div class="col">
-                    <a href="https://www.parrotsec.org/" target="_blank" class="text-decoration-none d-block">
-                    <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover">
-                        <img src="../img/Parrot.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Parrot OS</h3>
-                            <p class="card-text">
-                                Sistema operacional focado em privacidade e segurança, com versões específicas
-                                para pentesting e uso em nuvem.
-                            </p>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-
-                <div class="col">
-                    <a href="https://www.qubes-os.org/" target="_blank" class="text-decoration-none d-block">
-                    <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover">
-                        <img src="../img/Queub.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Qubes OS</h3>
-                            <p class="card-text">
-                                Sistema que isola ambientes virtuais, garantindo maior proteção contra ataques e
-                                minimizando riscos.
-                            </p>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-
-                <div class="col">
-                    <a href="https://www.microsoft.com/pt-br/windows-server" target="_blank" class="text-decoration-none d-block">
-                    <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover">
-                        <img src="../img/Wserver.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Windows Server</h5>
-                                <p class="card-text">
-                                    Voltado para ambientes corporativos, oferece recursos avançados de segurança e
-                                    gerenciamento de redes.
-                                </p>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="container my-5 w-75">
-            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 mb-2 align-items-center rounded-3 border shadow-lg">
-                <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
-                    <h1 class="display-5 fw-bold lh-1 text-center">Seção 2 – Softwares e Ferramentas</h1><br>
-                    <p class="text-center fs-5">
-                        Além dos sistemas operacionais, existem softwares e ferramentas que desempenham papel
-                        essencial na proteção digital. Eles ajudam a detectar ameaças, monitorar redes e proteger
-                        informações sensíveis, sendo usados tanto por usuários comuns quanto por empresas e
-                        governos.
-                    </p>
-                </div>
-            </div>
-        </div>
-
 
         <div class="container-fluid my-5">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card bg-transparent border rounded-3 shadow-lg text-white">
-                        <img src="../img/antivirus.jpeg" class="card-img-top" alt="...">
+                        <img src="../img/antivirus.jpeg" class="card-img-top" alt="Antivírus">
                         <div class="card-body">
-                            <h3 class="card-title">Antivírus</h3>
+                            <h5 class="card-title">Antivírus / EDR</h5>
                             <p class="card-text">
-                                Programas como <a href="https://www.kaspersky.com.br/?utm_referrer=https://www.bing.com/">Kaspersky</a> e <a href="https://www.bitdefender.com/pt-br/">Bitdefender</a> detectam e removem softwares
-                                maliciosos, protegendo dispositivos contra vírus e trojans.
+                                Softwares como <a href="https://www.kaspersky.com.br/" target="_blank"
+                                    class="text-info">Kaspersky</a> e <a href="https://www.bitdefender.com/pt-br/"
+                                    target="_blank" class="text-info">Bitdefender</a> escaneiam o sistema em tempo real
+                                para detectar, isolar e remover malwares, Trojans, ransomware e adwares antes que causem
+                                danos ao dispositivo.
                             </p>
                         </div>
                     </div>
@@ -184,71 +106,241 @@
 
                 <div class="col">
                     <div class="card bg-transparent border rounded-3 shadow-lg text-white">
-                        <img src="../img/Firewall.jpeg" class="card-img-top" alt="...">
+                        <img src="../img/Firewall.jpeg" class="card-img-top" alt="Firewalls">
                         <div class="card-body">
-                            <h3 class="card-title">Firewalls</h3>
+                            <h5 class="card-title">Firewalls</h5>
                             <p class="card-text">
-                                Soluções como <a href="https://www.pfsense.org/">pfSense</a> e <a href="https://www.cisco.com/">Cisco ASA</a> funcionam como barreiras que filtram o tráfego
-                                de rede e bloqueiam acessos não autorizados.
+                                Soluções como <a href="https://www.pfsense.org/" target="_blank"
+                                    class="text-info">pfSense</a> atuam como filtros de tráfego entre a rede interna e a
+                                internet, inspecionando portas de comunicação para bloquear acessos não autorizados e
+                                prevenir invasões.
                             </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <a href="https://www.wireshark.org/" target="_blank" class="text-decoration-none d-block">
-                    <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover">
-                        <img src="../img/WireShark.jpeg" class="card-img-top" alt="...">
+                    <div class="card bg-transparent border rounded-3 shadow-lg text-white">
+                        <img src="../img/seinha.jpg" class="card-img-top" alt="Gerenciadores de Senhas">
                         <div class="card-body">
-                            <h3 class="card-title">Wireshark</h3>
+                            <h5 class="card-title">Gerenciadores de Senhas</h5>
                             <p class="card-text">
-                                Ferramenta de análise de tráfego de rede que permite monitorar pacotes e identificar
-                                vulnerabilidades.
+                                Ferramentas como <a href="https://bitwarden.com/">Bitwarden</a> e <a href="https://1password.com/">1Password</a> armazenam credenciais de forma criptografada,
+                                geram senhas fortes e únicas para cada serviço e ajudam a evitar ataques de força bruta
+                                ou vazamento de dados.
                             </p>
                         </div>
                     </div>
-                     </a>
                 </div>
 
                 <div class="col">
-                    <a href="https://www.metasploit.com/" target="_blank" class="text-decoration-none d-block">
-                    <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover">
-                        <img src="../img/MetaSploit.jpeg" class="card-img-top" alt="...">
+                    <div class="card bg-transparent border rounded-3 shadow-lg text-white">
+                        <img src="../img/vpin.jpg" class="card-img-top" alt="VPNs">
                         <div class="card-body">
-                            <h3 class="card-title">Metasploit</h5>
+                            <h5 class="card-title">VPNs (Redes Privadas)</h5>
+                            <p class="card-text">
+                                Serviços de VPN como o <a href="https://nordvpn.com">NordVPN</a> criptografam a conexão de rede do usuário, ocultando o endereço IP e
+                                garantindo a privacidade e a segurança no tráfego de informações, especialmente em redes
+                                Wi-Fi públicas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container my-5 w-75">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 mb-2 align-items-center rounded-3 border shadow-lg">
+                <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-5 fw-bold lh-1 text-center">Seção 2 – Sistemas Operacionais</h1><br>
+                    <p class="text-center fs-5">
+                        Os sistemas operacionais voltados para a cibersegurança são ambientes estruturados para gestão
+                        de infraestrutura,
+                        privacidade e auditoria. Eles pré-instalam centenas de utilitários técnicos, permitindo simular
+                        cenários de ataque,
+                        isolar processos suspeitos e gerenciar políticas de acesso de forma centralizada.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid my-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <a href="https://www.kali.org/" target="_blank" class="text-decoration-none d-block h-100">
+                        <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover h-100">
+                            <img src="../img/kalicerto.jpeg" class="card-img-top" alt="Kali Linux">
+                            <div class="card-body">
+                                <h5 class="card-title">Kali Linux</h5>
                                 <p class="card-text">
-                                    Framework usado para testes de penetração, permitindo simular ataques e avaliar a
-                                    segurança de sistemas..
+                                    Distribuição Linux baseada em Debian, padrão da indústria para testes de penetração
+                                    (*pentesting*) e perícia digital. Vem com mais de 600 ferramentas pré-instaladas
+                                    para auditorias de segurança.
                                 </p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://www.parrotsec.org/" target="_blank" class="text-decoration-none d-block h-100">
+                        <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover h-100">
+                            <img src="../img/Parrot.jpeg" class="card-img-top" alt="Parrot OS">
+                            <div class="card-body">
+                                <h5 class="card-title">Parrot OS</h5>
+                                <p class="card-text">
+                                    Sistema focado em desenvolvimento seguro, privacidade e hacking ético. É mais leve
+                                    que o Kali Linux e oferece recursos voltados para navegação anônima e segurança em
+                                    nuvem.
+                                    Disponibiliza edições para uso diário e pentesting com integração nativa às redes
+                                    Tor e I2P.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://www.qubes-os.org/" target="_blank" class="text-decoration-none d-block h-100">
+                        <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover h-100">
+                            <img src="../img/Queub.jpeg" class="card-img-top" alt="Qubes OS">
+                            <div class="card-body">
+                                <h5 class="card-title">Qubes OS</h5>
+                                <p class="card-text">
+                                    Sistema operacional ultra-seguro focado em compartimentalização. Utiliza a
+                                    virtualização para isolar aplicativos e arquivos em pequenos containers (*Qubes*),
+                                    impedindo a propagação de invasões.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://www.microsoft.com/pt-br/windows-server" target="_blank"
+                        class="text-decoration-none d-block h-100">
+                        <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover h-100">
+                            <img src="../img/Wserver.jpeg" class="card-img-top" alt="Windows Server">
+                            <div class="card-body">
+                                <h5 class="card-title">Windows Server</h5>
+                                <p class="card-text">
+                                    Plataforma de servidor corporativo que centraliza a autenticação de usuários via
+                                    Active Directory, gerenciando políticas de grupo (GPO), permissões de arquivos e
+                                    defesa contra acessos indevidos.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container my-5 w-75">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 mb-2 align-items-center rounded-3 border shadow-lg">
+                <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-5 fw-bold lh-1 text-center">Seção 3 – Ferramentas de Cibersegurança</h1><br>
+                    <p class="text-center fs-5">
+                        Esta seção aborda aplicações especializadas utilizadas por analistas de segurança, peritos e
+                        *pentesters*.
+                        Essas ferramentas operam em nível técnico avançado para inspecionar pacotes de rede, mapear
+                        portas abertas,
+                        explorar falhas conhecidas de softwares e automatizar testes de vulnerabilidade em sistemas.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid my-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <a href="https://www.wireshark.org/" target="_blank" class="text-decoration-none d-block h-100">
+                        <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover h-100">
+                            <img src="../img/WireShark.jpeg" class="card-img-top" alt="Wireshark">
+                            <div class="card-body">
+                                <h5 class="card-title">Wireshark</h5>
+                                <p class="card-text">
+                                    Analisador de protocolos de rede que captura e inspeciona dados trafegados em tempo
+                                    real. Permite identificar gargalos, vazamentos de informações e atividades
+                                    maliciosas na rede.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://www.metasploit.com/" target="_blank" class="text-decoration-none d-block h-100">
+                        <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover h-100">
+                            <img src="../img/MetaSploit.jpeg" class="card-img-top" alt="Metasploit">
+                            <div class="card-body">
+                                <h5 class="card-title">Metasploit</h5>
+                                <p class="card-text">
+                                    Framework essencial para testes de penetração que possui um banco de dados de
+                                    *exploits*. Usado por profissionais para simular ataques reais e validar a eficácia
+                                    das defesas de um sistema.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://nmap.org/" target="_blank" class="text-decoration-none d-block h-100">
+                        <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover h-100">
+                            <img src="../img/nmapi.png" class="card-img-top" alt="Nmap">
+                            <div class="card-body">
+                                <h5 class="card-title">Nmap</h5>
+                                <p class="card-text">
+                                    Utilitário de escaneamento de rede usado para descobrir dispositivos ativos,
+                                    identificar portas abertas e detectar serviços rodando em um servidor, mapeando a
+                                    superfície de ataque.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://portswigger.net/burp" target="_blank" class="text-decoration-none d-block h-100">
+                        <div class="card bg-transparent border rounded-3 shadow-lg text-white card-hover h-100">
+                            <img src="../img/Burpsuite.jpg" class="card-img-top" alt="Burp Suite">
+                            <div class="card-body">
+                                <h5 class="card-title">Burp Suite</h5>
+                                <p class="card-text">
+                                    Plataforma integrada de testes de segurança para aplicações web. Atua como um
+                                    *proxy* interceptador para analisar requisições HTTP e identificar falhas como SQL
+                                    Injection e XSS.
+                                </p>
+                            </div>
+                        </div>
                     </a>
                 </div>
             </div>
         </div>
     </main>
 
-
     <!-- Footer -->
     <footer class="main-theme text-center mt-auto position-relative py-4 w-100">
-    <div class="px-5">
-        Etec de Hortolândia 2026 <b>&copy;Todos os direitos reservados<br>Trabalho acadêmico sem fins lucrativos</b>
-    </div>
+        <div class="px-5">
+            Etec de Hortolândia 2026 <b>&copy;Todos os direitos reservados<br>Trabalho acadêmico sem fins lucrativos</b>
+        </div>
 
-    <a href="#" class="btn position-absolute top-50 translate-middle-y end-0 me-3 me-md-4 p-0 z-1" aria-label="Voltar ao topo">
-        <span class="material-symbols-outlined fs-1 text-white d-block">
-            arrow_upward
-        </span>
-    </a>
-</footer>
+        <a href="#" class="btn position-absolute top-50 translate-middle-y end-0 me-3 me-md-4 p-0 z-1"
+            aria-label="Voltar ao topo">
+            <span class="material-symbols-outlined fs-1 text-white d-block">
+                arrow_upward
+            </span>
+        </a>
+    </footer>
     <!-- Footer -->
 
-    <!-- Dependencia -->
+    <!-- Dependencias -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <script src="../main.js" defer></script>
-    <!-- Dependencia -->
 </body>
 
 </html>
